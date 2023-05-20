@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(bg.png);
+    height: 100vh;
+    position:fixed;
+  }
+  .container{
+    background-color: rgb(231, 181, 74);
+    width: 65vw;
+    margin-top: 12vh;
+    margin-left: 20vw;
+    height: 80vh;
+    position:fixed;
+  
+  }
+  .unit{
+    margin-top:5vh ;
+    text-align: center; 
+  }
+  .converter {
+    margin: auto;
+    text-align: center;
+  }
+  #conversionType{
+    margin: 3vh;
+    padding: 1vh;
+    width: 30vw;
+    border-color: rgb(245, 131, 9);
+    border-width: 3px;
+
+  }
+  
+  input[type="number"] {
+    width: 30vw;
+    padding: 1vh;
+    border-width: 5px;
+    margin-top: 5px;
+    border-color: rgb(112, 107, 43);
+  }
+  #toUnit,#fromUnit{
+    padding: 1vh;
+    width: 30vw;
+    border-color: rgb(245, 131, 9);
+    border-width: 3px;
+
+  }
+  .Convert{
+    padding: 1vh;
+    width: 30vw;
+    background-color:rgb(216, 84, 23);
+    margin-top: 5vh;
+    border-radius: 20px;
+
+  }
+  #result{
+    font-weight: bold;
+    margin-top:3vh;
+  }
